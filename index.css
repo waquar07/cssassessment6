@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/shara\ desert.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.head{
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 220px;
+    left: 179px;
+}
+
+.p{
+    color: white;
+    position: relative;
+    top: 190px;
+    left: 179px;
+    line-height: 30px;
+}
+
+.btn{
+    border: 1px solid white;
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 11px 54px 10px 54px;
+    background-color: white;
+    border-radius: 61px;
+    position: relative;
+    left: 179px;
+    top: 190px;
+    font-size: 13px;
+    color: purple;
+    font-weight: bold;
+}
+
+.cont{
+    display: flex;
+    width: 611px;
+    height: 50px;
+    right: px;
+    margin-left: 890px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    height: 600px;
+    width: 536px;
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    top: 162px;
+    left: 844px;
+    flex-wrap: wrap;
+}
+
+.png1{
+    background-image: url(./images/pic-1.png);
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    transition: transform 1s linear;
+}
+
+.png1:hover{
+    transform: translateY(20px);
+}
+
+.png2{
+    background-image: url(./images/pic-2.png);
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    transition: transform 1s linear;
+}
+
+.png2:hover{
+    transform: translateY(20px);
+}
+
+.png3{
+    background-image: url(./images/pic-3.png);
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    transition: transform 1s linear;
+}
+
+.png3:hover{
+    transform: translateY(20px);
+}
+
+
+.png4{
+    background-image: url(./images/IMG-20190409-WA0018.png);
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    transition: transform 1s linear;
+}
+
+.png4:hover{
+    transform: translateY(20px);
+}
+
+
+.h{
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.q{
+    color: white;
+    font-size: smaller;
+    padding-left: 20px;
+}
+
+
+@media  screen and (max-width: 680px) {
+   .container{
+       height: 1400px;
+       width: 340px;
+       position: block;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       top: 550px;
+       align-items: center;
+       left: 200px;
+
+   }    
+
+   body{
+       background-repeat: repeat;
+       overflow-x: hidden;
+   }
+
+   .cont{
+       margin-left: 100px;
+
+   }
+
+   .head{
+       position: relative;
+       top: 120px;
+       left: 179px;
+   }
+
+   .p{
+       position: relative;
+       top: 120px;
+   }
+
+   .btn{
+       top: 145px;
+
+   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+     .container{
+         height: 1050px;
+         width: 500px;
+         position: block;
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: column;
+         top: 500px;
+         align-items: center;
+         left: 200px;
+     }
+
+     .png1 ,.png2 ,.png3 ,.png4{
+         width: 400px;
+         height: 200px;
+     }
+
+     body{
+         background-repeat: repeat;
+     }
+
+     .cont{
+         display: flex;
+         margin-left: 200px;
+     }
+
+     .head{
+         position: relative;
+         top: 120px;
+         left: 179px;
+     }
+
+     .p{
+         top: 120px;
+         position: relative;
+     }
+
+     .btn{
+         top: 145px;
+     }
+}
